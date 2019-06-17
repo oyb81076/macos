@@ -1,12 +1,13 @@
 # MacOS 重装系统后需要安装的资料
 ## 需要安装的软件
-* shadowsock https://originss.co
-* homebrew https://brew.sh
+### Shadowsock
+https://originss.co
+### JDK
 * jdk8 https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html
 * jdk最新版本 https://www.oracle.com/technetwork/java/javase/downloads/index.html
-* vscode https://code.visualstudio.com/
-* chrome https://www.google.cn/intl/zh-CN/chrome/
+
 ### vscode 常用插件安装
+https://code.visualstudio.com/
 ```bash
 code --install-extension DotJoshJohnson.xml
 code --install-extension EditorConfig.EditorConfig
@@ -28,12 +29,15 @@ code --install-extension vscodevim.vim
 code --install-extension zxh404.vscode-proto3
 ```
 
-#### Chrome 常用插件
+### Chrome
+https://www.google.cn/intl/zh-CN/chrome/  
+常用插件
 * cVim
 * React Developer Tools
 * Redux DevTools
 
-#### Homebrew 安装相关开发软件
+### Homebrew 安装相关开发软件
+https://brew.sh
 安装的时候最好先安装好shadowsock, 然后``cp bash_profile ~/.bash_profile``, 并且取消proxy注解, 这样可以使用代理下载, 会流畅很多
 ```bash
 # 常用的
@@ -46,7 +50,7 @@ brew install node yarn golang python@3 gradle maven protobuf
 brew install pkg-config cairo pango libpng jpeg giflib librsvg
 ```
 
-## vim
+### vim
 #### YouCompleteMe
 因为安装时间非常的长久, 所以提安装, 如果直接BundleInstall需要个把小时，而且看不到进度
 ```bash
