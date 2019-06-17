@@ -5,21 +5,15 @@ https://originss.co
 ## brew
 https://brew.sh
 
+## JDK
+[java8](https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html)
+[java最新版本](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+
 ### 相关软件安装
 ```bash
 brew install mysql mongodb rabbitmq redis autojump macvim nginx wget
-```
-### 其他特殊需要安装
-#### protobuf
-```bash
 brew install protobuf
-```
-#### node-canvas
-```bash
 brew install pkg-config cairo pango libpng jpeg giflib librsvg
-```
-### 语言相关
-```bash
 brew install node yarn golang python@3 gradle maven
 ```
 
