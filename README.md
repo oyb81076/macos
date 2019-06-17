@@ -1,11 +1,11 @@
 # MacOS 重装系统后需要安装的资料
 ## 需要安装的软件
-* [shadowsock](https://originss.co)
-* [brew](https://brew.sh)
-* [jdk8](https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html)
-* [jdk最新版本](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* shadowsock https://originss.co
+* homebrew https://brew.sh
+* jdk8 https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html
+* jdk最新版本 https://www.oracle.com/technetwork/java/javase/downloads/index.html
 
-### 相关软件安装
+### Homebrew 安装相关开发软件
 ```bash
 brew install mysql mongodb rabbitmq redis autojump macvim nginx wget
 brew install protobuf
