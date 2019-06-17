@@ -28,12 +28,13 @@ code --install-extension vscode-icons-team.vscode-icons
 code --install-extension vscodevim.vim
 code --install-extension zxh404.vscode-proto3
 ```
-### Chrome 常用插件
+
+#### Chrome 常用插件
 * cVim
 * React Developer Tools
 * Redux DevTools
 
-### Homebrew 安装相关开发软件
+#### Homebrew 安装相关开发软件
 ```bash
 # 常用的
 brew install mysql mongodb rabbitmq redis autojump macvim nginx wget
@@ -44,7 +45,7 @@ brew install pkg-config cairo pango libpng jpeg giflib librsvg
 ```
 
 ## vim
-### YouCompleteMe
+#### YouCompleteMe
 因为安装时间非常的长久, 所以提安装, 如果直接BundleInstall需要个把小时，而且看不到进度
 ```bash
 git clone --recursive https://github.com/Valloric/YouCompleteMe.git .vim/bundle/YouCompleteMe
@@ -52,7 +53,7 @@ yum install automake gcc gcc-c++ kernel-devel cmake
 yum install python-devel python3-devel
 cd ~/.vim/bundle/YouCompleteMe; ./install.py;
 ```
-### 安装
+#### 安装
 ```bash
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim;
 cp vimrc ~/.vimrc;
