@@ -35,10 +35,12 @@ code --install-extension zxh404.vscode-proto3
 
 ### Homebrew 安装相关开发软件
 ```bash
+# 常用的
 brew install mysql mongodb rabbitmq redis autojump macvim nginx wget
-brew install protobuf
+# 语言相关
+brew install node yarn golang python@3 gradle maven protobuf
+# node-canvas 使用的依赖
 brew install pkg-config cairo pango libpng jpeg giflib librsvg
-brew install node yarn golang python@3 gradle maven
 ```
 
 ## vim
