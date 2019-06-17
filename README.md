@@ -1,9 +1,30 @@
 # MacOS 重装系统后需要安装的资料
 ## Shadowsock
 https://originss.co
+
+## Idea
+https://www.jetbrains.com/idea/
+
+## Cocos Creator
+https://www.cocos.com/creator
+
+## Android Studio
+* Studio https://developer.android.google.cn/studio
+* ant https://ant.apache.org/srcdownload.cgi
+* ndk https://developer.android.google.cn/ndk/downloads?hl=zh_cn
+
+## oss
+* oss-browser https://github.com/aliyun/oss-browser
+* ossutil https://help.aliyun.com/document_detail/50452.html
+
 ## JDK
 * jdk8 https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html
 * jdk最新版本 https://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+## AppStore
+* xcode
+* qq
+* trello
 
 ## vscode
 https://code.visualstudio.com/
