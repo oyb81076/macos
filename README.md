@@ -13,7 +13,6 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension DotJoshJohnson.xml
 code --install-extension eamodio.gitlens
 code --install-extension EditorConfig.EditorConfig
-code --install-extension faustinoaq.lex-flex-yacc-bison
 code --install-extension kumar-harsh.graphql-for-vscode
 code --install-extension MS-CEINTL.vscode-language-pack-zh-hans
 code --install-extension ms-python.python
