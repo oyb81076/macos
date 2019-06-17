@@ -8,16 +8,16 @@
 * chrome https://www.google.cn/intl/zh-CN/chrome/
 ### vscode 常用插件安装
 ```bash
+code --install-extension DotJoshJohnson.xml
+code --install-extension EditorConfig.EditorConfig
+code --install-extension MS-CEINTL.vscode-language-pack-zh-hans
 code --install-extension asvetliakov.snapshot-tools
 code --install-extension dbaeumer.vscode-eslint
-code --install-extension DotJoshJohnson.xml
 code --install-extension eamodio.gitlens
-code --install-extension EditorConfig.EditorConfig
 code --install-extension kumar-harsh.graphql-for-vscode
-code --install-extension MS-CEINTL.vscode-language-pack-zh-hans
 code --install-extension ms-python.python
-code --install-extension ms-vscode.cpptools
 code --install-extension ms-vscode.Go
+code --install-extension ms-vscode.cpptools
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension rebornix.project-snippets
 code --install-extension robinbentley.sass-indented
