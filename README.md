@@ -5,8 +5,9 @@ https://originss.co
 * jdk8 https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html
 * jdk最新版本 https://www.oracle.com/technetwork/java/javase/downloads/index.html
 
-## vscode 常用插件安装
+## vscode
 https://code.visualstudio.com/
+#### 常用插件
 ```bash
 code --install-extension DotJoshJohnson.xml
 code --install-extension EditorConfig.EditorConfig
@@ -30,7 +31,7 @@ code --install-extension zxh404.vscode-proto3
 
 ## Chrome
 https://www.google.cn/intl/zh-CN/chrome/  
-常用插件
+#### 常用插件
 * cVim
 * React Developer Tools
 * Redux DevTools
@@ -38,6 +39,7 @@ https://www.google.cn/intl/zh-CN/chrome/
 ## Homebrew
 https://brew.sh
 安装的时候最好先安装好shadowsock, 然后``cp bash_profile ~/.bash_profile``, 并且取消proxy注解, 这样可以使用代理下载, 会流畅很多
+#### 常用依赖
 ```bash
 # 常用的
 brew install mysql mongodb rabbitmq redis macvim nginx wget autojump
