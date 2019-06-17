@@ -4,6 +4,31 @@
 * homebrew https://brew.sh
 * jdk8 https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html
 * jdk最新版本 https://www.oracle.com/technetwork/java/javase/downloads/index.html
+* vscode https://code.visualstudio.com/
+    * 常用插件安装
+    ```bash
+code --install-extension asvetliakov.snapshot-tools
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension DotJoshJohnson.xml
+code --install-extension eamodio.gitlens
+code --install-extension EditorConfig.EditorConfig
+code --install-extension faustinoaq.lex-flex-yacc-bison
+code --install-extension kumar-harsh.graphql-for-vscode
+code --install-extension MS-CEINTL.vscode-language-pack-zh-hans
+code --install-extension ms-python.python
+code --install-extension ms-vscode.cpptools
+code --install-extension ms-vscode.Go
+code --install-extension ms-vscode.vscode-typescript-tslint-plugin
+code --install-extension rebornix.project-snippets
+code --install-extension robinbentley.sass-indented
+code --install-extension shanoor.vscode-nginx
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension vscode-icons-team.vscode-icons
+code --install-extension vscodevim.vim
+code --install-extension zxh404.vscode-proto3
+    ```
+* chrome https://www.google.cn/intl/zh-CN/chrome/
+  * chrome所需插件 cVim, React Developer Tools, Redux DevTools
 
 ### Homebrew 安装相关开发软件
 ```bash
