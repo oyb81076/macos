@@ -5,8 +5,9 @@
 * jdk8 https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html
 * jdk最新版本 https://www.oracle.com/technetwork/java/javase/downloads/index.html
 * vscode https://code.visualstudio.com/
-    * 常用插件安装
-    ```bash
+* chrome https://www.google.cn/intl/zh-CN/chrome/
+### vscode 常用插件安装
+```bash
 code --install-extension asvetliakov.snapshot-tools
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension DotJoshJohnson.xml
@@ -26,9 +27,11 @@ code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension vscodevim.vim
 code --install-extension zxh404.vscode-proto3
-    ```
-* chrome https://www.google.cn/intl/zh-CN/chrome/
-  * chrome所需插件 cVim, React Developer Tools, Redux DevTools
+```
+### Chrome 常用插件
+* cVim
+* React Developer Tools
+* Redux DevTools
 
 ### Homebrew 安装相关开发软件
 ```bash
