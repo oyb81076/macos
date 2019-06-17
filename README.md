@@ -35,11 +35,14 @@ code --install-extension zxh404.vscode-proto3
 * Redux DevTools
 
 #### Homebrew 安装相关开发软件
+安装的时候最好先安装好shadowsock, 然后``cp bash_profile ~/.bash_profile``, 并且取消proxy注解, 这样可以使用代理下载, 会流畅很多
 ```bash
 # 常用的
-brew install mysql mongodb rabbitmq redis autojump macvim nginx wget
+brew install mysql mongodb rabbitmq redis macvim nginx wget autojump
+
 # 语言相关
 brew install node yarn golang python@3 gradle maven protobuf
+
 # node-canvas 使用的依赖
 brew install pkg-config cairo pango libpng jpeg giflib librsvg
 ```
