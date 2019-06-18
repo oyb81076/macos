@@ -77,8 +77,7 @@ brew install pkg-config cairo pango libpng jpeg giflib librsvg
 因为安装时间非常的长久, 所以提安装, 如果直接BundleInstall需要个把小时，而且看不到进度
 ```bash
 git clone --recursive https://github.com/Valloric/YouCompleteMe.git .vim/bundle/YouCompleteMe
-yum install automake gcc gcc-c++ kernel-devel cmake
-yum install python-devel python3-devel
+brew install cmake
 cd ~/.vim/bundle/YouCompleteMe; ./install.py;
 ```
 #### 安装
@@ -86,6 +85,6 @@ cd ~/.vim/bundle/YouCompleteMe; ./install.py;
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim;
 cp vimrc ~/.vimrc;
 cp gvimrc ~/.gvimrc;
-vim +BundleInstall +qall
+mvim +BundleInstall +qall
 ```
 
