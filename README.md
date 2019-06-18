@@ -1,4 +1,10 @@
 # MacOS 重装系统后需要安装的资料
+## 字体问题
+```bash
+defaults -currentHost write -globalDomain AppleFontSmoothing -int 1
+defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
+```
+
 ## Shadowsock
 https://originss.co
 
