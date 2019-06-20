@@ -78,6 +78,11 @@ brew install node yarn golang python@3 gradle maven protobuf
 brew install pkg-config cairo pango libpng jpeg giflib librsvg
 ```
 
+## yarn 淘宝景象
+```bash
+yarn config set registry https://registry.npm.taobao.org
+```
+
 ## vim
 #### YouCompleteMe
 因为安装时间非常的长久, 所以提安装, 如果直接BundleInstall需要个把小时，而且看不到进度
