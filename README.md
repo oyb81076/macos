@@ -1,4 +1,10 @@
 # MacOS 重装系统后需要安装的资料
+## 开机密码长度
+```bash
+pwpolicy -clearaccountpolicies
+passwd
+```
+可以使用低于4位的密码
 ## 字体问题
 ```bash
 defaults -currentHost write -globalDomain AppleFontSmoothing -int 1
