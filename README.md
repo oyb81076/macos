@@ -40,27 +40,7 @@ https://www.cocos.com/creator
 
 ## vscode
 https://code.visualstudio.com/
-#### 常用插件
-```bash
-code --install-extension DotJoshJohnson.xml
-code --install-extension EditorConfig.EditorConfig
-code --install-extension MS-CEINTL.vscode-language-pack-zh-hans
-code --install-extension asvetliakov.snapshot-tools
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension eamodio.gitlens
-code --install-extension kumar-harsh.graphql-for-vscode
-code --install-extension ms-python.python
-code --install-extension ms-vscode.Go
-code --install-extension ms-vscode.cpptools
-code --install-extension ms-vscode.vscode-typescript-tslint-plugin
-code --install-extension rebornix.project-snippets
-code --install-extension robinbentley.sass-indented
-code --install-extension shanoor.vscode-nginx
-code --install-extension streetsidesoftware.code-spell-checker
-code --install-extension vscode-icons-team.vscode-icons
-code --install-extension vscodevim.vim
-code --install-extension zxh404.vscode-proto3
-```
+用vscode打开当前文件夹, 会有插件推荐, settings.json 可以当作用户默认设置
 
 ## Chrome
 https://www.google.cn/intl/zh-CN/chrome/  
