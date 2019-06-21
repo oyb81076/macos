@@ -64,11 +64,15 @@ brew install node yarn golang python@3 gradle maven protobuf
 brew install pkg-config cairo pango libpng jpeg giflib librsvg
 ```
 ## Mysql8
-设置短密码
+接触密码验证的方法
 ```bash
 mysql -uroot;
 UNINSTALL COMPONENT 'file://component_validate_password';
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'sa';
+```
+在mysql5.7中删除validate_password的方式位
+```bash
+uninstall plugin validate_password;
 ```
 ## yarn 淘宝景象
 ```bash
