@@ -63,7 +63,13 @@ brew install node yarn golang python@3 gradle maven protobuf
 # node-canvas 使用的依赖
 brew install pkg-config cairo pango libpng jpeg giflib librsvg
 ```
-
+## Mysql8
+设置短密码
+```bash
+mysql -uroot;
+UNINSTALL COMPONENT 'file://component_validate_password';
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'sa';
+```
 ## yarn 淘宝景象
 ```bash
 yarn config set registry https://registry.npm.taobao.org
