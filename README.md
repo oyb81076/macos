@@ -41,6 +41,11 @@ https://www.cocos.com/creator
 ## vscode
 https://code.visualstudio.com/
 用vscode打开当前文件夹, 会有插件推荐, settings.json 可以当作用户默认设置
+#### 解决vscode下长安按钮只会相应一次的问题
+```bash
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false
+```
 
 ## Chrome
 https://www.google.cn/intl/zh-CN/chrome/  
