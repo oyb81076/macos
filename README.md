@@ -73,7 +73,7 @@ brew install pkg-config cairo pango libpng jpeg giflib librsvg
 ```bash
 mysql -uroot;
 UNINSTALL COMPONENT 'file://component_validate_password';
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'sa';
+alter user 'root'@'localhost' identified with mysql_native_password by 'sa';
 ```
 在mysql5.7中删除validate_password的方式位
 ```bash
