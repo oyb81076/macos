@@ -10,10 +10,10 @@ xcode-select --install
 
 - [macos](./macos.md)
 - [git](./git.md)
+- [oh-my-zsh](./oh-my-zsh.md)
 - [homebrew](./homebrew.md)
 - [java](./java.md)
 - [python](./python.md)
-- [oh-my-zsh](./oh-my-zsh.md)
 - [nodejs](./nodejs.md)
 - [命令行工具](./cmd.md)
 - [常用 apps 安装](./apps.md)
