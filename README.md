@@ -1,6 +1,10 @@
 # macos 安装说明
 
-提前安装 macos 命令行工具 `xcode-select --install`
+提前安装 macos 命令行工具
+
+```sh
+xcode-select --install
+```
 
 ## 目录
 
