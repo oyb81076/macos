@@ -66,7 +66,6 @@ set ignorecase smartcase
 set background=dark
 set noswapfile
 colorscheme badwolf
-"colorscheme solarized
 autocmd InsertLeave * se nocul
 autocmd InsertEnter * se cul
 

@@ -2,8 +2,9 @@
 
 ## 常用环境变量配置
 
+~/.zprofile
+
 ```sh
-# ~/.zprofile
 alias vi=mvim
 alias ter='open -a /System/Applications/Utilities/Terminal.app'
 alias idea="open -a /Applications/IntelliJ\ IDEA.app"
@@ -68,8 +69,9 @@ SET PASSWORD FOR 'root'@'localhost' = PASSWORD('sa');
 
 将所需的版本下载的文件解压并移动到 /opt/ 目录下, 然后配置到环境变量中
 
+~/.zprofile
+
 ```sh
-# ~/.zprofile
 export PATH="/opt/protoc-28.3-osx-aarch_64/bin:$PATH"
 export PATH="/opt/protobuf-javascript-3.21.4-linux-aarch_64/bin:$PATH"
 ```

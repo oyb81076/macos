@@ -20,7 +20,8 @@ git clone https://github.com/TamCore/autoupdate-oh-my-zsh-plugins.git $ZSH_CUSTO
 
 ## 配置文件修改
 
+~/.zshrc
+
 ```sh
-# ~/.zshrc
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting autoupdate)
 ```
