@@ -1,11 +1,5 @@
 # git
 
-## 安装
-
-```sh
-xcode-select --install
-```
-
 ## 配置文件
 
 ~/.gitignore_global
